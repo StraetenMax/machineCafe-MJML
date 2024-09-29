@@ -1,0 +1,46 @@
+
+<mjml>
+  <mj-head>
+    <mj-title>Machine Café</mj-title>
+    <mj-raw>
+      <meta name="color-scheme" content="light"/>
+      <meta name="supported-color-schemes" content="light"/>
+      <meta name="format-detection" content="telephone=no"/>
+      <meta name="format-detection" content="date=no"/>
+      <meta name="format-detection" content="address=no"/>
+      <meta name="format-detection" content="email=no"/>
+    </mj-raw>
+    <mj-font name="Raleway" href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&amp;display=swap"/>
+    <mj-attributes>
+      <mj-all font-family="Arial, Helvetica, sans-serif"/>
+      <mj-image border="none"/>
+      <mj-button background-color="#F45E43" color="#ffffff" font-size="14px"></mj-button>
+    </mj-attributes>
+    <mj-breakpoint width="480px"></mj-breakpoint>
+    <mj-style>
+      .heading{
+          padding-top: 15px;
+          text-align: center;
+          font-style: 18px;
+          font-family:"serif"
+      }
+    </mj-style>
+  </mj-head>
+  <mj-body background-color="#ededed">      
+    <mj-section padding="10px 0">
+      <mj-column>
+        <mj-text align="center" font-family="Arial, Helvetica, sans-serif" font-size="10px" line-height="16px" font-weight="400" color="#663300">Si ce message ne s'affiche pas correctement <a style="color:#663300;" href="#">consultez-le en ligne</a></mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section background-color="#73625b" padding-top="30px" padding-bottom="0px">
+      <mj-column width="100%">
+        <mj-text align="center" padding-top="0" padding-bottom="0" font-family="Raleway, Helvetica, sans-serif" font-size="36px" font-weight="300" line-height="40px" color="#ffffff">Une <span style="font-weight:700;">machine</span></mj-text>
+        <mj-text align="center" padding-top="0" padding-bottom="0" font-family="Raleway, Arial, sans-serif" font-size="36px" font-weight="700" line-height="40px" color="#ffffff"> à café professionnelle :</mj-text>
+        <mj-text align="center" padding-top="0" font-family="Raleway, Arial, sans-serif" font-size="32px" font-weight="300" line-height="36px" color="#ffffff">un incontournable ?</mj-text>
+      </mj-column>
+      <mj-column width="100%">
+        <mj-image padding="0" width="600px" src="https://vht.tradedoubler.com/file/277879/0424/hero.jpg" alt="Machine à café"></mj-image>
+      </mj-column>
+    </mj-section>
+  </mj-body>
+</mjml>
