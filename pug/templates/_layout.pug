@@ -13,9 +13,9 @@ mjml
         mj-attributes
             mj-all(font-family='Arial, Helvetica, sans-serif')/
             mj-image(border='none')/
-        mj-breakpoint(width='450px')
+        mj-breakpoint(width='550px')
         mj-style.
-            @media (max-width: 450px){
+            @media (max-width: 550px){
                 .hidden{
                     display: none !important;
                 }
@@ -25,12 +25,12 @@ mjml
     mj-body(background-color="#ededed")       
         //- content
         block content
-        //- map
-            block map
-            include ../includes/_map
-        //- recommended
-            block recommended
-            include ../includes/_recommended
+        //- header
+        block header
+            include ../includes/_header
+        //- body
+        block recommended
+            include ../includes/_body
         //- footer
-            block footer
+        block footer
             include ../includes/_footer

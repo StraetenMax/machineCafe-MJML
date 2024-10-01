@@ -15,9 +15,9 @@
       <mj-all font-family="Arial, Helvetica, sans-serif"/>
       <mj-image border="none"/>
     </mj-attributes>
-    <mj-breakpoint width="450px"></mj-breakpoint>
+    <mj-breakpoint width="550px"></mj-breakpoint>
     <mj-style>
-      @media (max-width: 450px){
+      @media (max-width: 550px){
           .hidden{
               display: none !important;
           }
