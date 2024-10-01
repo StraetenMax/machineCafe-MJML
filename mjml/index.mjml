@@ -14,16 +14,15 @@
     <mj-attributes>
       <mj-all font-family="Arial, Helvetica, sans-serif"/>
       <mj-image border="none"/>
-      <mj-button background-color="#F45E43" color="#ffffff" font-size="14px"></mj-button>
     </mj-attributes>
     <mj-breakpoint width="450px"></mj-breakpoint>
     <mj-style>
-      .heading{
-          padding-top: 15px;
-          text-align: center;
-          font-style: 18px;
-          font-family:"serif"
+      @media (max-width: 450px){
+          .hidden{
+              display: none !important;
+          }
       }
+      
     </mj-style>
   </mj-head>
   <mj-body background-color="#ededed">      
@@ -44,7 +43,7 @@
     </mj-section>
     <mj-section background-color="#f4e5de" padding="0">
       <mj-column width="34%">
-        <mj-image align="left" padding="0" src="https://vht.tradedoubler.com/file/277879/0424/hero2.jpg" alt="" width="205px"></mj-image>
+        <mj-image css-class="hidden" align="left" padding="0" src="https://vht.tradedoubler.com/file/277879/0424/hero2.jpg" alt="" width="205px"></mj-image>
       </mj-column>
       <mj-column width="66%" padding="0 20px">
         <mj-text padding="30px 0 30px 5px" font-family="Arial, Helvetica, sans-serif" font-size="14px" font-weight="600" line-height="18px" color="#282828">Investir dans une machine à café professionnelle transforme radicalement l'expérience café au travail, promettant qualité et satisfaction à chaque tasse.</mj-text>
@@ -54,14 +53,14 @@
         <mj-text padding="15px 0 40px 17px" font-family="Arial, Helvetica, sans-serif" font-size="13px" font-weight="400" line-height="17px" color="#282828">Des paramètres programmables permettent d'adapter les préparations aux préférences de chacun et d'optimiser le service selon le rythme de l'entreprise, garantissant un café parfait en toute situation.</mj-text>
         <mj-text padding="0 0 0 5px" font-family="Arial, Helvetica, sans-serif" font-size="15px" font-weight="700" line-height="19px" color="#282828"><span style="background-color:#88f05b;padding:5px 17px;">Diversité des boissons</span></mj-text>
         <mj-text padding="15px 0 38px 17px" font-family="Arial, Helvetica, sans-serif" font-size="13px" font-weight="400" line-height="17px" color="#282828">Équipez votre espace de travail d'une machine dotée de fonctionnalités de mousse de lait pour enrichir votre menu de boissons caféinées - des espressos corsés aux lattes onctueux, satisfaisant tous les goûts.</mj-text>
-        <mj-button align="left" padding="0 0 38px 5px" inner-padding="15px 25px" background-color="#282828" color="#ffffff" font-size="15px" font-weight="700" line-height="15px" border-radius="50px" href="#">Comparez les offres</mj-button>
+        <mj-button padding="0 0 38px 5px" inner-padding="15px 25px" background-color="#282828" color="#ffffff" font-size="15px" font-weight="700" line-height="15px" border-radius="50px" href="#">Comparez les offres</mj-button>
       </mj-column>
     </mj-section>
     <mj-section>
       <mj-column>
-        <mj-text padding="0" align="center" font-family="Arial, Helvetica, sans-serif" font-size="10px" line-height="14px" font-weight="400" color="#663300">Ceci est un mail automatique, merci de ne pas y répondre.</mj-text>
-        <mj-text padding="0" align="center" font-family="Arial, Helvetica, sans-serif" font-size="10px" line-height="14px" font-weight="400" color="#663300">Vous recevez ce mail d'information car vous êtes enregistré(e) sur la base partenaire HM</mj-text>
-        <mj-text padding="0" align="center" font-family="Arial, Helvetica, sans-serif" font-size="10px" line-height="14px" font-weight="400" color="#663300">Si vous souhaitez être retiré de la liste de diffusion, dirigez-vous sur cette page.</mj-text>
+        <mj-text padding-top="0" padding-bottom="0" align="center" font-family="Arial, Helvetica, sans-serif" font-size="10px" line-height="14px" font-weight="400" color="#663300">Ceci est un mail automatique, merci de ne pas y répondre.</mj-text>
+        <mj-text padding-top="0" padding-bottom="0" align="center" font-family="Arial, Helvetica, sans-serif" font-size="10px" line-height="14px" font-weight="400" color="#663300">Vous recevez ce mail d'information car vous êtes enregistré(e) sur la base partenaire HM</mj-text>
+        <mj-text padding-top="0" padding-bottom="0" align="center" font-family="Arial, Helvetica, sans-serif" font-size="10px" line-height="14px" font-weight="400" color="#663300">Si vous souhaitez être retiré de la liste de diffusion, dirigez-vous sur cette page.</mj-text>
       </mj-column>
     </mj-section>
   </mj-body>

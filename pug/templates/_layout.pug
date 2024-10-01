@@ -13,15 +13,14 @@ mjml
         mj-attributes
             mj-all(font-family='Arial, Helvetica, sans-serif')/
             mj-image(border='none')/
-            mj-button(background-color='#F45E43' color="#ffffff" font-size='14px')
         mj-breakpoint(width='450px')
         mj-style.
-            .heading{
-                padding-top: 15px;
-                text-align: center;
-                font-style: 18px;
-                font-family:"serif"
+            @media (max-width: 450px){
+                .hidden{
+                    display: none !important;
+                }
             }
+            
     //- Body
     mj-body(background-color="#ededed")       
         //- content
