@@ -38,12 +38,12 @@
         <mj-text align="center" padding-top="0" font-family="Raleway, Arial, sans-serif" font-size="32px" font-weight="300" line-height="36px" color="#ffffff">un incontournable ?</mj-text>
       </mj-column>
       <mj-column width="100%">
-        <mj-image padding="0" width="600px" src="https://vht.tradedoubler.com/file/277879/0424/hero.jpg" alt="Machine à café"></mj-image>
+        <mj-image padding="0" width="600px" src="https://i.ibb.co/nMbMTmV/heroTop.jpg" alt="Machine à café"></mj-image>
       </mj-column>
     </mj-section>
     <mj-section background-color="#f4e5de" padding="0">
       <mj-column width="34%">
-        <mj-image css-class="hidden" align="left" padding="0" src="https://vht.tradedoubler.com/file/277879/0424/hero2.jpg" alt="" width="205px"></mj-image>
+        <mj-image css-class="hidden" align="left" padding="0" src="https://i.ibb.co/kqxwZDJ/hero.jpg" alt="" width="205px"></mj-image>
       </mj-column>
       <mj-column width="66%" padding="0 20px">
         <mj-text padding="30px 0 30px 5px" font-family="Arial, Helvetica, sans-serif" font-size="14px" font-weight="600" line-height="18px" color="#282828">Investir dans une machine à café professionnelle transforme radicalement l'expérience café au travail, promettant qualité et satisfaction à chaque tasse.</mj-text>
