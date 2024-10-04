@@ -33,13 +33,13 @@
         <mj-image padding="0" width="600px" src="https://i.ibb.co/ZBZd4s5/hero-Top102024.jpg" alt="Machine à café"></mj-image>
       </mj-column>
     </mj-section>
-    <mj-section background-color="#64554c" padding="0">
+    <mj-section background-color="#2e231d" padding="0">
       <mj-column width="66%" padding="0 20px">
-        <mj-text padding="30px 0 30px 5px" font-family="Arial, Helvetica, sans-serif" font-size="14px" font-weight="600" line-height="18px" color="#ffffff">Investir dans une machine à café professionnelle transforme radicalement l'expérience café au travail, promettant qualité et satisfaction à chaque tasse.</mj-text>
+        <mj-text padding="15px 0 35px 5px" font-family="Arial, Helvetica, sans-serif" font-size="14px" font-weight="600" line-height="18px" color="#ffffff">Investir dans une machine à café professionnelle transforme radicalement l'expérience café au travail, promettant qualité et satisfaction à chaque tasse.</mj-text>
       </mj-column>
     </mj-section>
     <mj-section background-color="#f4e5de" padding="0">
-      <mj-column width="34%" vertical-align="middle" background-color="#64554c" padding="8px">
+      <mj-column width="34%" vertical-align="middle" background-color="#2e231d" padding="8px">
         <mj-image padding="0" src="https://i.ibb.co/rk2y3Th/cafe03-102024.jpg" alt="" width="600px"></mj-image>
       </mj-column>
       <mj-column width="66%" padding="0 20px" vertical-align="middle">
@@ -48,7 +48,7 @@
       </mj-column>
     </mj-section>
     <mj-section background-color="#f4e5de" padding="0">
-      <mj-column width="34%" vertical-align="middle" background-color="#64554c" padding="8px">
+      <mj-column width="34%" vertical-align="middle" background-color="#2e231d" padding="8px">
         <mj-image padding="0" src="https://i.ibb.co/4JvMyY6/cafe02-102024.jpg" alt="" width="600px"></mj-image>
       </mj-column>
       <mj-column width="66%" padding="0 20px" vertical-align="middle">
@@ -57,15 +57,15 @@
       </mj-column>
     </mj-section>
     <mj-section background-color="#f4e5de" padding="0">   
-      <mj-column width="34%" vertical-align="middle" background-color="#64554c" padding="8px">
-        <mj-image align="left" fluid-on-mobile="true" padding="0" src="https://i.ibb.co/KbhBy6w/cafe01-102024.jpg" alt="" width="600px"></mj-image>
+      <mj-column width="34%" vertical-align="middle" background-color="#2e231d" padding="8px">
+        <mj-image align="left" padding="0" src="https://i.ibb.co/KbhBy6w/cafe01-102024.jpg" alt="" width="600px"></mj-image>
       </mj-column>
       <mj-column width="66%" padding="0 20px" vertical-align="middle">
         <mj-text padding="0 0 0 5px" font-family="Arial, Helvetica, sans-serif" font-size="15px" font-weight="700" line-height="19px" color="#282828"><span style="background-color:#88f05b;padding:5px 17px;">Diversité des boissons</span></mj-text>
         <mj-text padding="15px 0 38px 17px" font-family="Arial, Helvetica, sans-serif" font-size="13px" font-weight="400" line-height="17px" color="#282828">Équipez votre espace de travail d'une machine dotée de fonctionnalités de mousse de lait pour enrichir votre menu de boissons caféinées - des espressos corsés aux lattes onctueux, satisfaisant tous les goûts.</mj-text>
       </mj-column>
     </mj-section>
-    <mj-section>
+    <mj-section background-color="#f4e5de">
       <mj-column>  
         <mj-button padding="0 0 38px 5px" inner-padding="15px 25px" background-color="#282828" color="#ffffff" font-size="15px" font-weight="700" line-height="15px" border-radius="50px" href="#">Comparez les offres</mj-button>
       </mj-column>
