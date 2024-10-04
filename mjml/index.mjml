@@ -30,14 +30,6 @@
         <mj-text align="center" padding-top="0" font-family="Raleway, Arial, sans-serif" font-size="32px" font-weight="300" line-height="36px" color="#ffffff">un incontournable ?</mj-text>
       </mj-column>
       <mj-column width="100%">
-<<<<<<< HEAD
-        <mj-image padding="0" width="600px" src="https://i.ibb.co/nMbMTmV/heroTop.jpg" alt="Machine à café"></mj-image>
-      </mj-column>
-    </mj-section>
-    <mj-section background-color="#f4e5de" padding="0">
-      <mj-column width="34%">
-        <mj-image css-class="hidden" align="left" padding="0" src="https://i.ibb.co/kqxwZDJ/hero.jpg" alt="" width="205px"></mj-image>
-=======
         <mj-image padding="0" width="600px" src="https://i.ibb.co/ZBZd4s5/hero-Top102024.jpg" alt="Machine à café"></mj-image>
       </mj-column>
     </mj-section>
@@ -49,7 +41,6 @@
     <mj-section background-color="#f4e5de" padding="0">
       <mj-column width="34%" vertical-align="middle" background-color="#2e231d" padding="8px">
         <mj-image padding="0" src="https://i.ibb.co/rk2y3Th/cafe03-102024.jpg" alt="" width="600px"></mj-image>
->>>>>>> 3images
       </mj-column>
       <mj-column width="66%" padding="0 20px" vertical-align="middle">
         <mj-text padding="0 0 0 5px" font-family="Arial, Helvetica, sans-serif" font-size="15px" font-weight="700" line-height="19px" color="#282828"><span style="background-color:#88f05b;padding:5px 17px;border-radius:8px;">Fraîcheur et goût supérieur :</span></mj-text>
