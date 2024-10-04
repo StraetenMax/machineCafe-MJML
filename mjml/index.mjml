@@ -15,15 +15,7 @@
       <mj-all font-family="Arial, Helvetica, sans-serif"/>
       <mj-image border="none"/>
     </mj-attributes>
-    <mj-breakpoint width="550px"></mj-breakpoint>
-    <mj-style>
-      @media (max-width: 550px){
-          .hidden{
-              display: none !important;
-          }
-      }
-      
-    </mj-style>
+    <mj-breakpoint width="480px"></mj-breakpoint>
   </mj-head>
   <mj-body background-color="#ededed">      
     <mj-section padding="10px 0">
@@ -38,22 +30,53 @@
         <mj-text align="center" padding-top="0" font-family="Raleway, Arial, sans-serif" font-size="32px" font-weight="300" line-height="36px" color="#ffffff">un incontournable ?</mj-text>
       </mj-column>
       <mj-column width="100%">
+<<<<<<< HEAD
         <mj-image padding="0" width="600px" src="https://i.ibb.co/nMbMTmV/heroTop.jpg" alt="Machine à café"></mj-image>
       </mj-column>
     </mj-section>
     <mj-section background-color="#f4e5de" padding="0">
       <mj-column width="34%">
         <mj-image css-class="hidden" align="left" padding="0" src="https://i.ibb.co/kqxwZDJ/hero.jpg" alt="" width="205px"></mj-image>
+=======
+        <mj-image padding="0" width="600px" src="https://i.ibb.co/ZBZd4s5/hero-Top102024.jpg" alt="Machine à café"></mj-image>
       </mj-column>
+    </mj-section>
+    <mj-section background-color="#2e231d" padding="0">
       <mj-column width="66%" padding="0 20px">
-        <mj-text padding="30px 0 30px 5px" font-family="Arial, Helvetica, sans-serif" font-size="14px" font-weight="600" line-height="18px" color="#282828">Investir dans une machine à café professionnelle transforme radicalement l'expérience café au travail, promettant qualité et satisfaction à chaque tasse.</mj-text>
-        <mj-text padding="0 0 0 5px" font-family="Arial, Helvetica, sans-serif" font-size="15px" font-weight="700" line-height="19px" color="#282828"><span style="background-color:#88f05b;padding:5px 17px;">Fraîcheur et goût supérieur :</span></mj-text>
+        <mj-text padding="15px 0 35px 5px" font-family="Arial, Helvetica, sans-serif" font-size="14px" font-weight="500" line-height="18px" color="#ffffff">Investir dans une machine à café professionnelle transforme radicalement l'expérience café au travail, promettant qualité et satisfaction à chaque tasse.</mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section background-color="#f4e5de" padding="0">
+      <mj-column width="34%" vertical-align="middle" background-color="#2e231d" padding="8px">
+        <mj-image padding="0" src="https://i.ibb.co/rk2y3Th/cafe03-102024.jpg" alt="" width="600px"></mj-image>
+>>>>>>> 3images
+      </mj-column>
+      <mj-column width="66%" padding="0 20px" vertical-align="middle">
+        <mj-text padding="0 0 0 5px" font-family="Arial, Helvetica, sans-serif" font-size="15px" font-weight="700" line-height="19px" color="#282828"><span style="background-color:#88f05b;padding:5px 17px;border-radius:8px;">Fraîcheur et goût supérieur :</span></mj-text>
         <mj-text padding="15px 0 35px 17px" font-family="Arial, Helvetica, sans-serif" font-size="13px" font-weight="400" line-height="17px" color="#282828">Avec un moulin intégré, votre équipe profite d'un café fraîchement moulu, offrant une expérience gustative unique et un contrôle précis sur le profil aromatique de chaque boisson.</mj-text>
-        <mj-text padding="0 0 0 5px" font-family="Arial, Helvetica, sans-serif" font-size="15px" font-weight="700" line-height="19px" color="#282828"><span style="background-color:#88f05b;padding:5px 17px;">Personnalisation et Flexibilité</span></mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section background-color="#f4e5de" padding="0">
+      <mj-column width="34%" vertical-align="middle" background-color="#2e231d" padding="8px">
+        <mj-image padding="0" src="https://i.ibb.co/4JvMyY6/cafe02-102024.jpg" alt="" width="600px"></mj-image>
+      </mj-column>
+      <mj-column width="66%" padding="0 20px" vertical-align="middle">
+        <mj-text padding="0 0 0 5px" font-family="Arial, Helvetica, sans-serif" font-size="15px" font-weight="700" line-height="19px" color="#282828"><span style="background-color:#88f05b;padding:5px 17px;border-radius:8px;">Personnalisation et Flexibilité</span></mj-text>
         <mj-text padding="15px 0 40px 17px" font-family="Arial, Helvetica, sans-serif" font-size="13px" font-weight="400" line-height="17px" color="#282828">Des paramètres programmables permettent d'adapter les préparations aux préférences de chacun et d'optimiser le service selon le rythme de l'entreprise, garantissant un café parfait en toute situation.</mj-text>
-        <mj-text padding="0 0 0 5px" font-family="Arial, Helvetica, sans-serif" font-size="15px" font-weight="700" line-height="19px" color="#282828"><span style="background-color:#88f05b;padding:5px 17px;">Diversité des boissons</span></mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section background-color="#f4e5de" padding="0">   
+      <mj-column width="34%" vertical-align="middle" background-color="#2e231d" padding="8px">
+        <mj-image padding="0" src="https://i.ibb.co/KbhBy6w/cafe01-102024.jpg" alt="" width="600px"></mj-image>
+      </mj-column>
+      <mj-column width="66%" padding="0 20px" vertical-align="middle">
+        <mj-text padding="0 0 0 5px" font-family="Arial, Helvetica, sans-serif" font-size="15px" font-weight="700" line-height="19px" color="#282828"><span style="background-color:#88f05b;padding:5px 17px;border-radius:8px;">Diversité des boissons</span></mj-text>
         <mj-text padding="15px 0 38px 17px" font-family="Arial, Helvetica, sans-serif" font-size="13px" font-weight="400" line-height="17px" color="#282828">Équipez votre espace de travail d'une machine dotée de fonctionnalités de mousse de lait pour enrichir votre menu de boissons caféinées - des espressos corsés aux lattes onctueux, satisfaisant tous les goûts.</mj-text>
-        <mj-button padding="0 0 38px 5px" inner-padding="15px 25px" background-color="#282828" color="#ffffff" font-size="15px" font-weight="700" line-height="15px" border-radius="50px" href="#">Comparez les offres</mj-button>
+      </mj-column>
+    </mj-section>
+    <mj-section background-color="#f4e5de">
+      <mj-column>  
+        <mj-button padding="0 0 38px 5px" inner-padding="15px 25px" background-color="#2e231d" color="#ffffff" font-size="15px" font-weight="700" line-height="15px" border-radius="50px" href="#">Comparez les offres</mj-button>
       </mj-column>
     </mj-section>
     <mj-section>
